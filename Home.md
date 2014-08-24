@@ -5,7 +5,7 @@
      * 
      * 
    * Run-Time Environment
-     * 
+     * [Exascale Launch](https://github.com/open-mpi/orcm/wiki/Exascale-Launch)
      * Power management
        * [Idle Power](https://github.com/open-mpi/orcm/wiki/IdlePower)
 
