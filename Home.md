@@ -7,7 +7,7 @@
    * Run-Time Environment
      * 
      * Power management
-       * 
+       * [Idle Power](https://github.com/open-mpi/orcm/wiki/IdlePower)
 
  * Administrative documents
    * ORCM adheres to the [Open MPI community's](https://svn.open-mpi.org/trac/ompi/wiki/Admistrative%20rules) administrative rules
