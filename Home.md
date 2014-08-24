@@ -2,8 +2,8 @@
 
  * Development Documents
    * Monitoring Systems
-     * 
-     * 
+     * Sensors
+     * [In-Flight Analytics](https://github.com/open-mpi/orcm/wiki/InFlightAnalytics)
    * Run-Time Environment
      * [Exascale Launch](https://github.com/open-mpi/orcm/wiki/Exascale-Launch)
      * Power management
