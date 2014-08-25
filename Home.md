@@ -64,7 +64,7 @@ Throughout this time, ORCM has retained ORTE's ability to perform scalable launc
   * Distributed mapping system to minimize data transmission of launch commands*
   * Rapid MPI wireup
     * Endpoint management and support for static endpoints, enabling communication upon init
-    * PMIx wireup support for unmanaged environments*
+    * [PMIx](https://github.com/open-mpi/pmix/wiki) wireup support for unmanaged environments*
     * Automatic pre-positioning of dynamic libraries*
     * Pre-loading of libraries and data by user directive*
 
