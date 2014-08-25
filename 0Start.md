@@ -1,4 +1,4 @@
-ORCM was originally developed as an open-source project (under the Open MPI license) by Cisco Systems, Inc to provide a resilient, 100% uptime run-time environment for enterprise-class routers. Based on the Open Run-Time Environment (ORTE) embedded in Open MPI, the system provided launch and execution support for processes executing within the router itself (e.g., computing routing tables), ensuring that a minimum number of copies of each program were always present. Failed processes were relocated based on the concept of fault groups - i.e., the grouping of nodes with common failure modes. Thus, ORCM attempted to avoid cascade failures by ensuring that processes were not relocated onto nodes with a high probability of failing in the immediate future.
+The Open Resilient Cluster Manager (ORCM) was originally developed as an open-source project (under the Open MPI license) by Cisco Systems, Inc to provide a resilient, 100% uptime run-time environment for enterprise-class routers. Based on the Open Run-Time Environment (ORTE) embedded in Open MPI, the system provided launch and execution support for processes executing within the router itself (e.g., computing routing tables), ensuring that a minimum number of copies of each program were always present. Failed processes were relocated based on the concept of fault groups - i.e., the grouping of nodes with common failure modes. Thus, ORCM attempted to avoid cascade failures by ensuring that processes were not relocated onto nodes with a high probability of failing in the immediate future.
 
 The Cisco implementation naturally required a significant amount of monitoring, and included the notion of fault prediction as a means of taking pre-emptive action to relocate processes prior to their node failing. This was facilitated using an analytics framework that allowed users to chain various analysis modules in the data pipeline so as to perform in-flight data reduction.
 
@@ -78,13 +78,13 @@ Throughout this time, ORCM has retained ORTE's ability to perform scalable launc
 *indicates areas of development
 
 ### Documentation
-Detailed documentation on the design of ORCM itself is under development on the ORCM wiki page.
+Detailed documentation on the design of ORCM itself is under development on the [ORCM wiki page](https://github.com/open-mpi/orcm/wiki).
 
 ### Getting and using ORCM
 
 There are no ORCM releases at this time. The GIT repository is accessible for online browsing or checkout.
 
 ### Questions and bugs
-Questions, comments, and bugs should be sent to ORCM mailing lists. Passing --enable-debug to ./configure also enables a lot of helpful debugging information.
+Questions, comments, and bugs should be sent to [ORCM mailing lists](http://www.open-mpi.org/community/lists/orcm.php). Passing --enable-debug to ./configure also enables a lot of helpful debugging information.
 
-Also be sure to see the ORCM wiki and bug tracking system. 
+Also be sure to see the [ORCM wiki](https://github.com/open-mpi/orcm/wiki) and bug tracking system. 
