@@ -78,7 +78,7 @@ Throughout this time, ORCM has retained ORTE's ability to perform scalable launc
 *indicates areas of development
 
 ### Documentation
-Detailed documentation on the design of ORCM itself is under development on the [ORCM wiki page](https://github.com/open-mpi/orcm/wiki).
+Detailed documentation on the design of ORCM itself is under development on the [ORCM developer page](https://github.com/open-mpi/orcm/wiki/Developer).
 
 ### Getting and using ORCM
 
