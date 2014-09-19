@@ -17,6 +17,7 @@
         * [Setting MCA Parameters](2.1.8-Setting-MCA-Parameters)
     * [Database Installation](2.2-Database-Installation)
         * [Database Server](2.2.1-Database-Server)
+            * [Software Requirements](2.2.1-Database-Server#2211-software-requirements)
         * [Database Connectivity](2.2.2-Database-Connectivity)
         * [ORCM Configuration](2.2.3-ORCM-Configuration)
     * RAS Monitoring
