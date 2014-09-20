@@ -1,5 +1,3 @@
-#Administrative Guide
-
 * [ORCM Build and Installation](2.1-ORCM-Build-and-Installation)
     * [Build Dependencies](2.1.1-Build-Dependencies)
     * [Pre-build Configuration](2.1.2-Pre-build-Configuration)
