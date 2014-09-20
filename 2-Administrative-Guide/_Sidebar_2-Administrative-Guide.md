@@ -1,10 +1,3 @@
-* [ORCM](1-ORCM)
-    * [Background](1.1-Background)
-    * [Overview](1.2-Overview)
-        * [Architecture](1.2.1-Architecture)
-        * [Core Features](1.2.2-Core-Features)
-    * RAS monitoring
-    * Database
 * [Administrative Guide](2-Administrative-Guide)
     * [ORCM Build and Installation](2.1-ORCM-Build-and-Installation)
         * [Build Dependencies](2.1.1-Build-Dependencies)
@@ -20,10 +13,3 @@
         * [Database Connectivity](2.2.2-Database-Connectivity)
         * [ORCM Configuration](2.2.3-ORCM-Configuration)
     * RAS Monitoring
-* [ORCM Tools User Guide](3-ORCM-Tools-User-Guide)
-    * [orcmd](3.1-orcmd)
-    * [orcmsched](3.2-orcmsched)
-    * [orun](3.3-orun)
-    * [osub](3.4-osub)
-    * [octl](3.5-octl)
-    * [oqueue](3.6-oqueue)
