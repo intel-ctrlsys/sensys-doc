@@ -1,29 +1,13 @@
-* [ORCM](1-ORCM)
-    * [Background](1.1-Background)
-    * [Overview](1.2-Overview)
-        * [Architecture](1.2.1-Architecture)
-        * [Core Features](1.2.2-Core-Features)
-    * RAS monitoring
-    * Database
-* [Administrative Guide](2-Administrative-Guide)
-    * [ORCM Build and Installation](2.1-ORCM-Build-and-Installation)
-        * [Build Dependencies](2.1.1-Build-Dependencies)
-        * [Pre-build Configuration](2.1.2-Pre-build-Configuration)
-        * [Build Steps](2.1.3-Build-Steps)
-        * [Post-build Configuration](2.1.4-Post-build-Configuration)
-        * [Setting Up BMC and IPMI Libraries](2.1.5-Setting-Up-BMC-and-IPMI-Libraries)
-        * [Startup Instructions](2.1.6-Startup-Instructions)
-        * [Troubleshooting](2.1.7-Troubleshooting)
-        * [Setting MCA Parameters](2.1.8-Setting-MCA-Parameters)
-    * [Database Installation](2.2-Database-Installation)
-        * [Database Server](2.2.1-Database-Server)
-        * [Database Connectivity](2.2.2-Database-Connectivity)
-        * [ORCM Configuration](2.2.3-ORCM-Configuration)
-    * RAS Monitoring
-* [ORCM Tools User Guide](3-ORCM-Tools-User-Guide)
-    * [orcmd](3.1-orcmd)
-    * [orcmsched](3.2-orcmsched)
-    * [orun](3.3-orun)
-    * [osub](3.4-osub)
-    * [octl](3.5-octl)
-    * [oqueue](3.6-oqueue)
+Welcome to the ORCM Wiki!
+
+ORCM = Open Resilient Resource Manager
+
+Where to start:
+
+* [How did ORCM get started?](1.1-Background)
+* [Get an overview](1.2-Overview)
+* [How to build and install ORCM](2.1-ORCM-Build-and-Installation)
+* [Developer guide](4.1-Developer)
+
+Use the sidebar on the right for navigating around the Wiki!
+
