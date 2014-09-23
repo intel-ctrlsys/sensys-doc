@@ -6,7 +6,7 @@
         * [Core Features](1.2.2-Core-Features)
     * Database
     * RAS monitoring
-* [Build and Installation](2-Build-and-Installation)
+* [Build and Installation Guide](2-Build-and-Installation-Guide)
     * [ORCM Build and Installation](2.1-ORCM-Build-and-Installation)
         * [Build From SRPMS](2.1.1-Build-From-SRPMS)
         * [Relocate RPM Install Path](2.1.2-Relocate-RPM-Install-Path)
