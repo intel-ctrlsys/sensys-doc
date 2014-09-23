@@ -7,5 +7,5 @@
     * [octl](3.5-octl)
     * [oqueue](3.6-oqueue)
 * Appendix
-    * [Terminology](A-Terminology.md)
+    * [Terminology](A-Terminology)
     * FAQ
