@@ -6,3 +6,6 @@
         * [Core Features](1.2.2-Core-Features)
     * Database
     * RAS monitoring
+* Appendix
+    * [Terminology](A-Terminology.md)
+    * FAQ
