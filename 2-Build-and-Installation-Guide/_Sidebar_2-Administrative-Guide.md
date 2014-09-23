@@ -18,3 +18,6 @@
         * [ORCM Configuration](2.2.3-ORCM-Configuration)
     * [RAS Monitoring](2.3-RAS-Monitoring)
         * [Enabling RAS Monitoring](2.3.1-Enabling-RAS-Monitoring)
+* Appendix
+    * [Terminology](A-Terminology.md)
+    * FAQ

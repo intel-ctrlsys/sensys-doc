@@ -6,3 +6,6 @@
     * [osub](3.4-osub)
     * [octl](3.5-octl)
     * [oqueue](3.6-oqueue)
+* Appendix
+    * [Terminology](A-Terminology.md)
+    * FAQ
