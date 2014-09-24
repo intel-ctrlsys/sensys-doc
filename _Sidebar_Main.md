@@ -14,7 +14,7 @@
         * [Build From GitHub Repo](2.1.4-Build-From-GitHub-Repo)
         * [Build Dependencies](2.1.5-Build-Dependencies)
         * [Pre-build Configuration](2.1.6-Pre-build-Configuration)
-        * [Post-build Configuration: Site.xml](2.1.7-Post-build-Configuration: Site.xml)
+        * [Post-build Configuration: Site.xml](2.1.7-Post-build-Configuration:-Site.xml)
         * [Setting Up BMC and IPMI Libraries](2.1.8-Setting-Up-BMC-and-IPMI-Libraries)
         * [Startup Instructions](2.1.9-Startup-Instructions)
         * [Troubleshooting](2.1.10-Troubleshooting)
