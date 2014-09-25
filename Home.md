@@ -1,6 +1,6 @@
 Welcome to the ORCM Wiki!
 
-ORCM = Open Resilient Resource Manager
+ORCM = Open Resilient Cluster Manager
 
 Where to start:
 
