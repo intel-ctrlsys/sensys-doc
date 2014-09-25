@@ -6,7 +6,7 @@
 | OPAL | Open Portability Access Layer                        |
 | MCA  | Modular Component Architecture (in ORCM context)     |
 | HNP  | Session Head Node Process or Controller Node Process |
-| RM   | Resource Manager Framework                           |
+| RM   | Resource Manager                                     |
 | SCD  | Scheduler Framework                                  |
 | SMS  | System Management Server                             |
 | RAS  | Reliability, Availability & Serviceability           |
