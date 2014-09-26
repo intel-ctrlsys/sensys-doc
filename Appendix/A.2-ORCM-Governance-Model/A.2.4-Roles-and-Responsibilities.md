@@ -38,7 +38,7 @@ Note: the administrative committee is more important at the beginning of the pro
 6. In the event a consensus cannot be reached by the voting members with 2/3 majority, a special vote must be taken by a small governing body.
 7. Urgent voting issues will be given a reasonable amount of time for voting to allow all members unable to attend the voting session to submit a vote not to exceed a week after the in-person voting session.  The amount of time will be set based on the urgency of the issue.  Voting will be allowed at the physical meeting, via email or via phone.
 
-####A.2.4.5 General Voting Rules
+####A.2.4.5 Committee Regular Meetings
 
 There shall be a biweekly developers meeting (initially chaired by Intel) to discuss:
 
