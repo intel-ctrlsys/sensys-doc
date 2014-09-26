@@ -19,5 +19,5 @@
     * [RAS Monitoring](2.3-RAS-Monitoring)
         * [Enabling RAS Monitoring](2.3.1-Enabling-RAS-Monitoring)
 * Appendix
-    * [Terminology](A-Terminology)
+    * [Terminology](A.1-Terminology)
     * FAQ

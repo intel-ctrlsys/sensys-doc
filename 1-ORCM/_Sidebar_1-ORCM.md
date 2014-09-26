@@ -7,5 +7,5 @@
     * Database
     * RAS monitoring
 * Appendix
-    * [Terminology](A-Terminology)
+    * [Terminology](A.1-Terminology)
     * FAQ
