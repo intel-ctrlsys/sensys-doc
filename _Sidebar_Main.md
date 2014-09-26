@@ -4,7 +4,7 @@
     * [Overview](1.2-Overview)
         * [Architecture](1.2.1-Architecture)
         * [Core Features](1.2.2-Core-Features)
-    * Database
+    * [Database](1.3-Database)
     * RAS monitoring
 * [Build and Installation Guide](2-Build-and-Installation-Guide)
     * [ORCM Build and Installation](2.1-ORCM-Build-and-Installation)
