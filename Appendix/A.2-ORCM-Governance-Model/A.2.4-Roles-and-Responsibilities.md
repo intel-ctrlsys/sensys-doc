@@ -40,7 +40,7 @@ Note: the administrative committee is more important at the beginning of the pro
 
 ####A.2.4.5 Committee Regular Meetings
 
-There shall be a biweekly developers' meeting (initially chaired by Intel) to discuss:
+There shall be a biweekly developers' meeting to discuss:
 
 * Features
 * Bugs
