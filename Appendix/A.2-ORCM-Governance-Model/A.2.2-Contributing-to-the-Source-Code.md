@@ -1,4 +1,4 @@
-ORCM membership guidelines are the same as for OpenMPI.  This means there are different types of membership:
+ORCM membership guidelines are the same as for OpenMPI.  The following are the types of membership:
 
 * Members: have voting rights
 * Contributors: collaborate with coding, testing and hosting services
