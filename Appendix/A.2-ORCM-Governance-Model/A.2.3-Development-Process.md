@@ -27,11 +27,11 @@ The following diagram shows the development procedure for a release:
 
 #####A.2.3.3.1 Legal
 
-Before every release Intel will perform an IP (Intellectual Property) scan and developers will do a self-attestation.  After this, the IP plan and release BOM (Bill of Materials) will be reviewed with Intel Legal before the release.
+Before every release we will perform an IP (Intellectual Property) scan and developers will do a self-attestation.  After this, the IP plan and release BOM (Bill of Materials) will be reviewed with Legal before the release.
 
 #####A.2.3.3.2 Unit Tests
 
-ORCM will have unit test suite, build-time tests and post-build tests.  Before a check-in, the tests should be run to ensure the quality of the code.  Intel will enable the infrastructure to run the unit tests automatically on the main trunk after every check-in.  If there are any test failures, the developer shall pull his changes from the trunk and fix the code.
+ORCM will have unit test suite, build-time tests and post-build tests.  Before a check-in, the tests should be run to ensure the quality of the code.  We will enable the infrastructure to run the unit tests automatically on the main trunk after every check-in.  If there are any test failures, the developer shall pull his changes from the trunk and fix the code.
 
 #####A.2.3.3.3 New Tests
 
