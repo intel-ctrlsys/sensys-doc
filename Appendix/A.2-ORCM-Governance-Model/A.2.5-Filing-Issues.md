@@ -2,8 +2,9 @@ To file an issue in the ORCM project, please use the [issues section](https://gi
 
 For each issue, please apply the approriate labels for proper filing and processing.  The labels that may be used are as follows:
 
-* **bug**: for an issue that is considered a bug (i.e. exception conditions that the program is not handling correctly or in general when the program is not behaving as expected or documented).
-* **documentation**: for issues that are related to the documentation.
+* **bug**: issue that is considered a bug (i.e. exception conditions that the program is not handling correctly or in general when the program is not behaving as expected or documented).
+* **documentation**: issues that are related to the documentation.
+* **architectural**: issues that are known to be limitations of the ORCM implementation, support library implementation, operating system design or hardware capabilities.
 * **fixed**: used to mark a bug as fixed (but still waiting for validation and approval).  Once the fix has been verified, the bug will be closed.
 * **RFC**: used to propose new features or enhancements in the project.
 * **duplicate**: applied to issues that turn out to be a duplicate of a previously filed issue.
@@ -13,7 +14,11 @@ For each issue, please apply the approriate labels for proper filing and process
 
 In general, the process for processing bugs is as follows:
 
-1. Bug is filed
+1. Bug is filed.  Please include:
+    * Release used
+    * Configuration details (options used when building and running)
+    * Details about the hardware on which the program was run
+    * Failure details: error messages, issue frequency, instructions to reproduce
 2. Bug is acknowledged and assessed:
     * Does it require fixing (is it a valid bug)?
     * Further classification: apply appropriate labels
