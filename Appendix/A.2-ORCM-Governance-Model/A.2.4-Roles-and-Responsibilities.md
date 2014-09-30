@@ -30,7 +30,7 @@ Note: the administrative committee is more important at the beginning of the pro
 
 ####A.2.4.4 General Voting Rules
 
-1. The philosophy and goal of the OpenMPI community is to reach consensus on most, if not all, issues.  In the event that full consensus cannot be reached, the administrative steering committee will apply the following rules.
+1. The philosophy and goal of the Open MPI community is to reach consensus on most, if not all, issues.  In the event that full consensus cannot be reached, the administrative steering committee will apply the following rules.
 2. On all issues requiring group consensus, all active community members eligible to vote (see rule 3 below) will receive one vote.  All votes are required to pass with 2/3 majority.  A quorum of members must vote (i.e. >50%).  Abstentions will not be counted in the total votes when calculating whether there is a 2/3 majority.
 3. In order to participate in a vote a member must have attended two of the last three quarterly administrative meetings.
 4. A member may send a proxy vote, but each phisical person can only cast one vote.  This prevents a member for voting on behalf of its own entity and acting as a proxy.
