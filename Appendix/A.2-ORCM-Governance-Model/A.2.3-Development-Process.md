@@ -15,7 +15,7 @@ The following diagram shows the RFC process:
 ![RFC Process](Appendix/A.2-ORCM-Governance-Model/RFC-Process.png)
 Source: https://svn.open-mpi.org/trac/ompi/attachment/wiki/DevProcess/OMPI%20RFC%20process.ppt
 
-For more information, see: [Open MPI Dev. Process](https://svn.open-mpi.org/trac/ompi/wiki/DevProcess)
+For more information, please see: [Open MPI Development Process](https://svn.open-mpi.org/trac/ompi/wiki/DevProcess)
 
 ####A.2.3.2 Development Procedure for a Release
 
@@ -56,6 +56,8 @@ For a release branch, it's required to have the code base section leader to revi
 * Branch for the release
 * The branch is tested until it meets the release criteria
 * Release
+
+For more information, please see: [Open MPI Technical Guidelines](https://svn.open-mpi.org/trac/ompi/wiki/TechnicalGuidelines).
 
 ####A.2.3.6 Changeset Move Requests
 
