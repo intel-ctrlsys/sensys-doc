@@ -8,7 +8,7 @@ In general, the process for developing new features is as follows:
 * Once the RFC is accepted, its release timeline is defined (estimated)
 * Once the code is ready, it should follow the normal development process for merging changes into mainline
 
-On the GitHub ORCM project page, RFCs can be submitted as issues labeled as "RFC".
+On the [GitHub ORCM project page](https://github.com/open-mpi/orcm), RFCs can be submitted as issues labeled as "RFC".  The issues section can be found [here](https://github.com/open-mpi/orcm/issues).
 
 The following diagram shows the RFC process:
 
