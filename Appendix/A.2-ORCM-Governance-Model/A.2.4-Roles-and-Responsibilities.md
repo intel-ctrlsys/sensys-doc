@@ -46,3 +46,10 @@ There shall be a biweekly developers' meeting to discuss:
 * Bugs
 * Performance goals
 * Release milestones
+
+####A.2.4.6 Reference
+
+For more information regarding roles and responsibilities and the administrative steering committee, please see:
+
+* [Open MPI Technical Guidelines](https://svn.open-mpi.org/trac/ompi/wiki/TechnicalGuidelines)
+* [Open MPI Administrative Rules](https://svn.open-mpi.org/trac/ompi/wiki/Admistrative%20rules)
