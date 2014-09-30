@@ -1,4 +1,4 @@
-To file an issue in the ORCM project, please use the [issues section](https://github.com/open-mpi/orcm/issues) on the [GitHub ORCM project page](https://github.com/open-mpi/orcm) (which can be found as a tab on the right hand side).
+To file an issue in the ORCM project, please use the [issues section](https://github.com/open-mpi/orcm/issues) on the [GitHub ORCM project page](https://github.com/open-mpi/orcm) (which can be found as a tab on the right-hand side).
 
 For each issue, please apply the approriate labels for proper filing and processing.  The labels that may be used are as follows:
 
