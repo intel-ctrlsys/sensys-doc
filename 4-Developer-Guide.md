@@ -1,5 +1,3 @@
-# ORCM Developer Information
-
  * Development Documents
    * Monitoring Systems
      * Sensors
