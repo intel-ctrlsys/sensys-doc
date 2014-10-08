@@ -129,12 +129,11 @@ class WikiItem:
                          WikiConfig.DEFAULT_PAGE + ")")
         
         if self.is_root():
-            level = 0
+            self._generate_tree(item_list, 0, 0)
         else:
             item_list.append("* [" + self.title + "](" + self.link + ")")
-            level = 1
+            self._generate_tree(item_list, 1)
         
-        self._generate_tree(item_list, level)
         f = open(self._get_sidebar_path(), "w")
         self._write_toc_to_file(item_list, f)
         f.close()
@@ -177,11 +176,11 @@ class WikiItem:
             return self._generate_footer(item.get_parent()) + " -> [" + \
                    item.title + "](" + item.link + ")"
 
-    def _generate_tree(self, item_list, level):
+    def _generate_tree(self, item_list, level, max_level=sys.maxint):
         for item in self.children:
             item_list.append((" " * (level * 4)) + "* [" +
                              item.title + "](" + item.link + ")")
-            if item.is_dir():
+            if item.is_dir() and level < max_level:
                 item._generate_tree(item_list, level + 1)
     
     def _write_toc_to_file(self, toc, output_file):
