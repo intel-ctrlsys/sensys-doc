@@ -4,3 +4,4 @@
 * [3 ORCM Tools User Guide](3-ORCM-Tools-User-Guide)
 * [4 Developer Guide](4-Developer-Guide)
 * [Appendix](Appendix)
+* [ReleaseNotes](ReleaseNotes)
