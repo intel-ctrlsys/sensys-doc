@@ -9,5 +9,7 @@ Where to start:
 * [How to build and install ORCM](2.1-ORCM-Build-and-Installation)
 * [Developer guide](4-Developer-Guide)
 
+Want to contribute to the wiki?  Sure!  Take a look at the instructions for [maintaining the wiki](A.3-Maintaining-the-Wiki).
+
 Use the sidebar on the right for navigating around the Wiki!
 
