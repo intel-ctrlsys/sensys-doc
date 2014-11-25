@@ -46,7 +46,7 @@ The following sections provide details on the naming conventions and directory s
 * In shell output examples, use "#" for root prompts and "%" for regular user prompts
 * Use of literal blocks:
     * Use them for showing examples of command input/output and for code or configuration file excerpts or examples
-    * When including a file that's already present in the repo as an example, if possible, try to include a link to the file instead of copying its contents to the wiki
+    * When including a file as an example that's already present in the repo, if possible, try to include a link to it instead of copying its contents to the wiki
     * To avoid any confusion between wiki instructions and literal input/output (e.g. for installation instructions), try to avoid including comments inside literal blocks
     * For one-line command examples it's okay to use embedded literal blocks
 
