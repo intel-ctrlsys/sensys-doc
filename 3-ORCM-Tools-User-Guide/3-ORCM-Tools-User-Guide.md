@@ -1,6 +1,0 @@
-* [3.1 orcmd](3.1-orcmd)
-* [3.2 orcmsched](3.2-orcmsched)
-* [3.3 orun](3.3-orun)
-* [3.4 osub](3.4-osub)
-* [3.5 octl](3.5-octl)
-* [3.6 ocli](3.6-ocli)
