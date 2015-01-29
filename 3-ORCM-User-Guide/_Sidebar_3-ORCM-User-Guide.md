@@ -8,4 +8,4 @@
     * [3.2 ORCM System Daemons](3.2-ORCM-System-Daemons)
         * [3.2.1 orcmd](3.2.1-orcmd)
         * [3.2.2 orcmsched](3.2.2-orcmsched)
-    * [3.3 ORCM Node Regular Expressions](3.3-ORCM-Regex)
+    * [3.3 ORCM Regex](3.3-ORCM-Regex)
