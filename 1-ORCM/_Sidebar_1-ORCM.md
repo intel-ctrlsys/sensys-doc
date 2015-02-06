@@ -6,3 +6,4 @@
         * [1.2.2 Core Features](1.2.2-Core-Features)
     * [1.3 Database](1.3-Database)
     * [1.4 RAS Monitoring](1.4-RAS-Monitoring)
+    * [1.5 Diagnostics](1.5-Diagnostics)
