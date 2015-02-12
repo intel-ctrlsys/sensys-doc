@@ -8,7 +8,7 @@
         * [2.1.05 Build Dependencies](2.1.05-Build-Dependencies)
         * [2.1.06 Pre build Configuration](2.1.06-Pre-build-Configuration)
         * [2.1.07 Post build Configuration](2.1.07-Post-build-Configuration)
-        * [2.1.08 Setting Up BMC and IPMI Libraries](2.1.08-Setting-Up-BMC-and-IPMI-Libraries)
+        * [2.1.08 Setting Up pre requisites for RAS Monitoring](2.1.08-Setting-Up-pre-requisites-for-RAS-Monitoring)
         * [2.1.09 Startup Instructions](2.1.09-Startup-Instructions)
         * [2.1.10 Troubleshooting](2.1.10-Troubleshooting)
         * [2.1.11 Setting MCA Parameters](2.1.11-Setting-MCA-Parameters)
