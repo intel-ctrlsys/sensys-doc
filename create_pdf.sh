@@ -1,3 +1,5 @@
+# pandoc comes from https://github.com/jgm/pandoc/releases
+# and pdfjoin is part of TeX
 if [[ $# -ne 1 ]]
 then
     echo "Usage: $0 <version>"
