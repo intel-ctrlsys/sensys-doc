@@ -7,3 +7,4 @@
     * [1.3 Database](1.3-Database)
     * [1.4 RAS Monitoring](1.4-RAS-Monitoring)
     * [1.5 Diagnostics](1.5-Diagnostics)
+    * [1.6 Admin RAS Policy](1.6-Admin-RAS-Policy)
