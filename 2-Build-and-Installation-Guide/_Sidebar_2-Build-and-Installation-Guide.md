@@ -15,7 +15,7 @@
     * [2.2 Database Installation](2.2-Database-Installation)
         * [2.2.1 Database Server](2.2.1-Database-Server)
         * [2.2.2 Database Connectivity](2.2.2-Database-Connectivity)
-        * [2.2.4 Database Distro Specific Examples](2.2.4-Database-Distro-Specific-Examples)
+        * [2.2.3 Database Distro Specific Examples](2.2.3-Database-Distro-Specific-Examples)
     * [2.3 RAS Monitoring](2.3-RAS-Monitoring)
         * [2.3.01 Introduction](2.3.01-Introduction)
         * [2.3.02 State Flow](2.3.02-State-Flow)
