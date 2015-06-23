@@ -213,7 +213,7 @@ def process_dir(parent_wiki_item, ignore_list, verbose):
         else:
             parent_wiki_item.children.append(child_wiki_item)
 
-def generate_navigation_items(wiki_tree, verbose, toc):
+def generate_navigation_items(wiki_tree, ignore_list, verbose, toc):
     if not wiki_tree.is_dir():
         return 
     
@@ -229,7 +229,7 @@ def generate_navigation_items(wiki_tree, verbose, toc):
         wiki_tree.generate_footer()
     # If TOC already exists, don't overwrite it, as the user may be
     # maintaining it (unless the user forces it with "--toc")
-    if not wiki_tree.toc_exists() or toc:
+    if not wiki_tree.toc_exists() or (toc and not ignore(wiki_tree.entry, ignore_list)):
         if verbose:
             print "Generating TOC in: " + wiki_tree.get_path()
         wiki_tree.generate_toc()
@@ -239,7 +239,7 @@ def generate_navigation_items(wiki_tree, verbose, toc):
     
     for item in wiki_tree.children:
         if item.is_dir():
-            generate_navigation_items(item, verbose, toc)
+            generate_navigation_items(item, ignore_list, verbose, toc)
 
 def get_ignore_list_from_file(file_name):
     try:
@@ -299,6 +299,6 @@ if __name__ == "__main__":
 
     wiki_tree = WikiItem(".", None)
     process_dir(wiki_tree, ignore_list, verbose)
-    generate_navigation_items(wiki_tree, verbose, toc)
+    generate_navigation_items(wiki_tree, ignore_list, verbose, toc)
 
     print "Done!"
