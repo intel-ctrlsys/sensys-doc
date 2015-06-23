@@ -64,3 +64,10 @@ Important notes:
 * The tool will replace all sidebars and footers found in the repo
 * However, the tool will not replace TOC files (it will only generate them if not found), as these may contain a section overview being maintained by the user
 * The tool will only generate sidebars for the first two levels of directories
+
+Example:
+```
+python wikinav.py --ignore=ignore.list --toc --verbose
+```
+
+The previous command will generate all the wiki navigation items ignoring the files specified in the "ignore.list" file, forcing regeneration of all TOC files, and producing a verbose output.  This is going to be the most common method of invocation.  To avoid overwriting TOC files being maintained manually, simply add them to the ignore list.  The "ignore.list" file is included in the repo.
