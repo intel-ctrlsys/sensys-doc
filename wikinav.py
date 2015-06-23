@@ -235,10 +235,14 @@ def generate_navigation_items(wiki_tree, ignore_list, verbose, toc):
         wiki_tree.generate_footer()
     # If TOC already exists, don't overwrite it, as the user may be
     # maintaining it (unless the user forces it with "--toc")
-    if not wiki_tree.toc_exists() or (toc and not ignore(wiki_tree.get_toc_name(), ignore_list)):
-        if verbose:
-            print "Generating TOC in: " + wiki_tree.get_path()
-        wiki_tree.generate_toc()
+    if not wiki_tree.toc_exists() or toc:
+        if not ignore(wiki_tree.get_toc_name(), ignore_list):
+            if verbose:
+                print "Generating TOC in: " + wiki_tree.get_path()
+            wiki_tree.generate_toc()
+        elif verbose:
+            print "NOTE: TOC not generated for \"" + wiki_tree.get_path() + \
+                  "\": file in ignore list"
     elif verbose:
         print "NOTE: TOC not generated for \"" + wiki_tree.get_path() + "\":", \
               "file already exists"
