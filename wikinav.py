@@ -138,11 +138,17 @@ class WikiItem:
         self._write_toc_to_file(item_list, f)
         f.close()
 
-    def _get_toc_path(self):
+    def get_toc_name(self):
+        if not self._is_dir:
+            return ""
+
         if self.is_root():
             return WikiConfig.DEFAULT_PAGE + ".md"
         else:
-            return os.path.join(self._path, self.entry + ".md")
+            return self.entry + ".md"
+
+    def _get_toc_path(self):
+        return os.path.join(self._path, self.get_toc_name())
 
     def _get_footer_path(self):
         if self.is_root():
@@ -229,7 +235,7 @@ def generate_navigation_items(wiki_tree, ignore_list, verbose, toc):
         wiki_tree.generate_footer()
     # If TOC already exists, don't overwrite it, as the user may be
     # maintaining it (unless the user forces it with "--toc")
-    if not wiki_tree.toc_exists() or (toc and not ignore(wiki_tree.entry, ignore_list)):
+    if not wiki_tree.toc_exists() or (toc and not ignore(wiki_tree.get_toc_name(), ignore_list)):
         if verbose:
             print "Generating TOC in: " + wiki_tree.get_path()
         wiki_tree.generate_toc()
