@@ -1,15 +1,12 @@
-Welcome to the ORCM Wiki!
-
-ORCM = Open Resilient Cluster Manager
-
-Where to start:
-
-* [How did ORCM get started?](1.1-Background)
-* [Get an overview](1.2-Overview)
-* [How to build and install ORCM](2.1-ORCM-Build-and-Installation)
-* [Developer guide](4-Developer-Guide)
-
-Want to contribute to the wiki?  Sure!  Take a look at the instructions for [maintaining the wiki](A.3-Maintaining-the-Wiki).
-
-Use the sidebar on the right for navigating around the Wiki!
-
+* [1 ORCM](1-ORCM)
+* [1.8 Data Smoothing Algorithms (Analytics)](1.8-Data-Smoothing-Algorithms-(Analytics))
+* [2 Build and Installation Guide](2-Build-and-Installation-Guide)
+* [3 ORCM User Guide](3-ORCM-User-Guide)
+* [3.5 ORCM Logical Grouping](3.5-ORCM-Logical-Grouping)
+* [4 Developer Guide](4-Developer-Guide)
+* [5 Testing](5-Testing)
+* [Appendix](Appendix)
+* [Exascale Launch](Exascale-Launch)
+* [IdlePower](IdlePower)
+* [InFlightAnalytics](InFlightAnalytics)
+* [ReleaseNotes](ReleaseNotes)

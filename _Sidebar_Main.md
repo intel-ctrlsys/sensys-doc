@@ -7,4 +7,7 @@
 * [4 Developer Guide](4-Developer-Guide)
 * [5 Testing](5-Testing)
 * [Appendix](Appendix)
+* [Exascale Launch](Exascale-Launch)
+* [IdlePower](IdlePower)
+* [InFlightAnalytics](InFlightAnalytics)
 * [ReleaseNotes](ReleaseNotes)
