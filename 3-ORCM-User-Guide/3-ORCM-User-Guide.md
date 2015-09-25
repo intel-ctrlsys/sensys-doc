@@ -8,4 +8,6 @@
     * [3.2.2 orcmsched](3.2.2-orcmsched)
 * [3.3 ORCM Regex](3.3-ORCM-Regex)
 * [3.4 ORCM CFGI User Guide](3.4-ORCM-CFGI-User-Guide)
+* [3.5 ORCM Logical Grouping](3.5-ORCM-Logical-Grouping)
+
 * [3.6 ORCM MCA parameters](3.6-ORCM-MCA-parameters)
