@@ -9,4 +9,4 @@
     * [1.5 Diagnostics](1.5-Diagnostics)
     * [1.6 Admin RAS Policy](1.6-Admin-RAS-Policy)
     * [1.7 ErrorManager Notification](1.7-ErrorManager-Notification)
-    * [1.8 Data Smoothing Algorithms (Analytics)] (1.8 Data Smoothing Algorithms (Analytics))
+    * [1.8 Data Smoothing Algorithms Analytics](1.8-Data-Smoothing-Algorithms-Analytics)
