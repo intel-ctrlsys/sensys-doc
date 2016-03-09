@@ -14,12 +14,12 @@ find . -name '*.md' | grep -v _Sidebar | grep -v _Footer | egrep '^./[1234]-' | 
     echo -e "$name\n======" | cat - $i > pdfs/`basename $i`
     rm -f pdfs/`basename $i`.pdf
     echo "generating PDF for $i..."
-    pandoc --from markdown_github -t latex --standalone --latex-engine=xelatex --template=template.tex -o pdfs/`basename $i`.pdf pdfs/`basename $i`
+    pandoc --from markdown_github -t latex --listings --standalone --latex-engine=xelatex --template=template.tex -o pdfs/`basename $i`.pdf pdfs/`basename $i`
 done
 echo -e "Version $1 User Guide\n======\n* [1 ORCM](1-ORCM)\n* [2 Build and Installation Guide](2-Build-and-Installation-Guide)\n* [3 ORCM User Guide](3-ORCM-User-Guide)" > pdfs/title.md
 echo -e "Version $1 Release Notes\n======" | cat - ReleaseNotes/v$1-release-notes.md > pdfs/v$1-release-notes.md
-pandoc --from markdown_github -t latex --standalone --latex-engine=xelatex --template=template.tex -o pdfs/00v$1-release-notes.pdf pdfs/v$1-release-notes.md
-pandoc --from markdown_github -t latex --standalone --latex-engine=xelatex --template=template.tex -o pdfs/01-title.md.pdf pdfs/title.md
+pandoc --from markdown_github -t latex --listings --standalone --latex-engine=xelatex --template=template.tex -o pdfs/00v$1-release-notes.pdf pdfs/v$1-release-notes.md
+pandoc --from markdown_github -t latex --listings --standalone --latex-engine=xelatex --template=template.tex -o pdfs/01-title.md.pdf pdfs/title.md
 cd pdfs
 IFS=$oIFS
 pdfjoin --paper letter --outfile out.pdf `ls *.pdf | xargs`

@@ -141,7 +141,14 @@ $endif$
 $for(header-includes)$
 $header-includes$
 $endfor$
-
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  breakatwhitespace=true,
+  breakautoindent=true,
+  linewidth=14cm,
+  basewidth=0.5em,
+}
 \begin{document}
 \pagenumbering{gobble}
 $if(title)$
