@@ -1,10 +1,14 @@
+<<<<<<< HEAD:ReleaseNotes/Legal-Disclaimers.md
 Legal Disclaimer:
 =================
+=======
+Legal Notice
+============
+>>>>>>> 8121716... Updating release notes for 0.25.0 release:ReleaseNotes/Legal-Notice.md
 
-Following 3rd party software libraries are included as part of GREI monitoring:
+### Gemeter software includes a 3rd party PUGIXML source which uses MIT license
 
-1. Pugixml
-
+```
 This library is available to anybody free of charge, 
 under the terms of MIT License:
 
@@ -34,3 +38,4 @@ sufficient to add an acknowledgment like this to the product distribution:
 
 This software is based on pugixml library (http://pugixml.org). pugixml is 
 Copyright (C) 2006-2015 Arseny Kapoulkine.
+```
