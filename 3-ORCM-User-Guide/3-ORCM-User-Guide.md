@@ -9,3 +9,5 @@
 * [3.3 ORCM Regex](3.3-ORCM-Regex)
 * [3.4 ORCM CFGI User Guide](3.4-ORCM-CFGI-User-Guide)
 * [3.5 ORCM Logical Grouping](3.5-ORCM-Logical-Grouping)
+* [3.6 Using Munge for Authentication and Authorization](3.6 Using Munge for Authentication and Authorization)
+
