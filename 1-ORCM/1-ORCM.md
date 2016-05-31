@@ -5,5 +5,5 @@
 * [1.3 Database](1.3-Database)
 * [1.4 RAS Monitoring](1.4-RAS-Monitoring)
 * [1.5 Diagnostics](1.5-Diagnostics)
-* [1.6 ErrorManager Notification](1.7-ErrorManager-Notification)
-* [1.7 Data Smoothing Algorithms Analytics](1.8-Data-Smoothing-Algorithms-Analytics)
+* [1.6 ErrorManager Notification](1.6-ErrorManager-Notification)
+* [1.7 Data Smoothing Algorithms Analytics](1.7-Data-Smoothing-Algorithms-Analytics)
