@@ -24,7 +24,7 @@ echo -e "Version $1 Legal Notice\n======" | cat - ReleaseNotes/Legal-Notice.md >
 pandoc --from markdown_github -t latex --listings --standalone --latex-engine=xelatex --template=template.tex -o pdfs/Legal-Notice.pdf pdfs/Legal-Notice.md
 cd pdfs
 IFS=$oIFS
-pdfjoin --paper letter --outfile out.pdf `cat ../v0.25_topics.txt`
+pdfjoin --paper letter --outfile out.pdf `cat ../v0.27_topics.txt`
 cd ..
 cp -f pdfs/out.pdf orcm-release-$1.pdf
 #rm -rf pdfs
