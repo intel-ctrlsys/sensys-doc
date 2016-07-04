@@ -1,3 +1,4 @@
+#!/bin/bash
 # pandoc comes from https://github.com/jgm/pandoc/releases
 # and pdfjoin is part of TeX
 if [[ $# -ne 1 ]]
@@ -23,6 +24,8 @@ pandoc --from markdown_github -t latex --listings --standalone --latex-engine=xe
 cd pdfs
 IFS=$oIFS
 pdfjoin --paper letter --outfile out.pdf `ls *.pdf | xargs`
+# When running in docker, use the following command instead of pdfjoin
+# pdftk `cat files.txt` cat output out.pdf
 cd ..
 cp -f pdfs/out.pdf orcm-release-$1.pdf
 #rm -rf pdfs

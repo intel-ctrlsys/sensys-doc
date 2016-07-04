@@ -1,0 +1,24 @@
+These are the instructions to generate the pdf from the Markdown wiki using docker.
+
+1) Generate a docker image.
+
+The Dockerfile (included in this folder) will be used by docker to create an image. This
+image will have the pandoc and pdftk utilities inside. To generate this image run:
+
+$ docker build -t wikigenerator .
+
+Where wikigenerator is the label of this image.
+This may take a while due to all the dependencies.
+
+2) Check if the docker image was created.
+
+Running 'docker images' should list the wikigenerator image.
+
+3) Run the create_pdf.sh script into the docker image.
+
+Go to root folder of this repository and run:
+
+$ docker run -v `pwd`:/source wikigenerator "create_pdf.sh #.#.#"
+
+Where #.#.# is the number of the release.
+
