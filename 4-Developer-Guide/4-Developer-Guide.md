@@ -14,3 +14,8 @@
     * [4.4.1 Analytics Plugin API](4.4.1-Analytics-Plugin-API)
     * [4.4.2 Analytics Plugin Development](4.4.2-Analytics-Plugin-Development)
     * [4.4.3 Analytics Plugin Build Install](4.4.3-Analytics-Plugin-Build-Install)
+* [4.5 ORCM Simplified Sensor Interface](4.5-ORCM-Simplified-Sensor-Interface)
+    * [4.5.1 Sensor Plugin API](4.5.1-ORCM-Sensor-Plugin-API)
+    * [4.5.2 Sensor Plugin Development](4.5.2-ORCM-Sensor-Plugin-Development)
+    * [4.5.3 Sensor Plugin Build Install](4.5.3-ORCM-Sensor-Plugin-Build-Install)
+* [4.6 `dataContainer` class reference](4.6-dataContainer-reference.md)
