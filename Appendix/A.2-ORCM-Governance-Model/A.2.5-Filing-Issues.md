@@ -1,4 +1,4 @@
-To file an issue in the ORCM project, please use the [issues section](https://github.com/orcmteam/gemeter/issues) on the [GitHub ORCM project page](https://github.com/orcmteam/gemeter) (which can be found as a tab on the right-hand side).
+To file an issue in the ORCM project, please use the [issues section](https://github.com/intel-ctrlsys/sensys/issues) on the [GitHub ORCM project page](https://github.com/intel-ctrlsys/sensys) (which can be found as a tab on the right-hand side).
 
 For each issue, please apply the approriate labels for proper filing and processing.  The labels that may be used are as follows:
 

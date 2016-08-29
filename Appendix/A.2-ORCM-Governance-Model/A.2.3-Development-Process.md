@@ -8,7 +8,7 @@ In general, the process for developing new features is as follows:
 * Once the RFC is accepted, its release timeline is defined (estimated)
 * Once the code is ready, it should follow the normal development process for merging changes into mainline
 
-On the [GitHub ORCM project page](https://github.com/orcmteam/gemeter), RFCs can be submitted as [issues](https://github.com/orcmteam/gemeter/issues) labeled as "RFC".
+On the [GitHub ORCM project page](https://github.com/intel-ctrlsys/sensys), RFCs can be submitted as [issues](https://github.com/intel-ctrlsys/sensys/issues) labeled as "RFC".
 
 The following diagram shows the RFC process:
 
