@@ -1,3 +1,4 @@
+* [V0.29.0 release notes](V0.29.0-release-notes)
 * [V0.27.0 release notes](V0.27.0-release-notes)
 * [V0.25.0 release notes](V0.25.0-release-notes)
 * [V0.23.0 release notes](V0.23.0-release-notes)

@@ -1,12 +1,7 @@
-<<<<<<< HEAD:ReleaseNotes/Legal-Disclaimers.md
 Legal Disclaimer:
 =================
-=======
-Legal Notice
-============
->>>>>>> 8121716... Updating release notes for 0.25.0 release:ReleaseNotes/Legal-Notice.md
 
-### Sensys software includes a 3rd party PUGIXML source which uses MIT license
+### Sensys software includes a 3rd party PUGIXML source which uses MIT license.
 
 ```
 This library is available to anybody free of charge,
