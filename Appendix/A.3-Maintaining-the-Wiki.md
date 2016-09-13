@@ -1,6 +1,6 @@
 ###A.3.1 How Do I Add a Page to the Wiki?
 
-The ORCM wiki repo has a certain directory structure, and pages and directories follow a certain naming convention.  This is to organize content better and make it easier to generate the wiki's navigation items (sidebars, footers, etc.).  To add a page to the wiki:
+The Sensys wiki repo has a certain directory structure, and pages and directories follow a certain naming convention.  This is to organize content better and make it easier to generate the wiki's navigation items (sidebars, footers, etc.).  To add a page to the wiki:
 
 1. Clone the orcm.wiki repo (see lower right corner on the wiki's [main page](Home))
 2. Decide where in the directory structure the new page belongs

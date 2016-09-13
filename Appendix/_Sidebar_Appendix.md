@@ -1,7 +1,7 @@
 * [Home](Home)
 * [Appendix](Appendix)
     * [A.1 Terminology](A.1-Terminology)
-    * [A.2 ORCM Governance Model](A.2-ORCM-Governance-Model)
+    * [A.2 Sensys Governance Model](A.2-Sensys-Governance-Model)
         * [A.2.1 Following the Open MPI Model](A.2.1-Following-the-Open-MPI-Model)
         * [A.2.2 Contributing to the Source Code](A.2.2-Contributing-to-the-Source-Code)
         * [A.2.3 Development Process](A.2.3-Development-Process)

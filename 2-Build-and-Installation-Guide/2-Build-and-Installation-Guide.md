@@ -1,4 +1,4 @@
-* [2.1 ORCM Build and Installation](2.1-ORCM-Build-and-Installation)
+* [2.1 Sensys Build and Installation](2.1-Sensys-Build-and-Installation)
     * [2.1.01 Build From SRPMS](2.1.01-Build-From-SRPMS)
     * [2.1.02 Relocate RPM Install Path](2.1.02-Relocate-RPM-Install-Path)
     * [2.1.03 Build From Source Tar Files](2.1.03-Build-From-Source-Tar-Files)
@@ -16,6 +16,3 @@
     * [2.2.3 Enabling Data Purge](2.2.3-Enabling-Data-Purge)
     * [2.2.4 Monitoring Database Size](2.2.4-Monitoring-Database-Size)
     * [2.2.5 Database Distro Specific Examples](2.2.5-Database-Distro-Specific-Examples)
-* [2.3 RAS Monitoring](2.3-RAS-Monitoring)
-    * [2.3.01 Introduction](2.3.01-Introduction)
-    * [2.3.02 State Flow](2.3.02-State-Flow)

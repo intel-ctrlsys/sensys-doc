@@ -1,12 +1,12 @@
 Saving power when nodes are not being used is a big deal in most installations - having a cluster sit there burning full power while idle, especially when it was set to performance mode, represents a significant cost in places where usage is “on demand” as opposed to constant. Administrators therefore value a system that can be directed via policy to automatically put nodes in a reduced power mode when idle for more than a specified time, and then bring them back online when needed. Sys admins also need to take nodes offline (leaving them powered up), and order nodes to power down, for maintenance purposes, and would like to track those as distinct from a node failing as the implications in terms of specified policies could be different.
 
-ORCM's approach to such requirements is to provide mechanisms by which users can control the system's behavior, and then allow those users to establish policies indicating when an dhow those controls are to be used. In this case, ORCM provides two mechanisms for minimizing the amount of lost energy while in idle mode:
+Sensys's approach to such requirements is to provide mechanisms by which users can control the system's behavior, and then allow those users to establish policies indicating when an dhow those controls are to be used. In this case, Sensys provides two mechanisms for minimizing the amount of lost energy while in idle mode:
 
 * powering the node ''off'' - this represents the minimum energy impact, but requires that the node effectively reboot prior to becoming available for the next session; and
 
 * setting the node to ''idle'' - i.e., the minimum frequency or power state. This allows the node to remain active and able to rapidly respond to the next session request, including ramping its frequency and/or power state to maximum, but does continue to consume some idle power.
 
-ORCM supports the following policy definitions:
+Sensys supports the following policy definitions:
 
 * time a node remains unallocated before placing it in ''standby'' mode
 
@@ -22,7 +22,7 @@ The typical power-up procedure is to issue a "power-up" command to nodes that ar
 
 The additional "ordered-to-power-up-but-didn’t-show” state is required because the system can’t necessarily mark the node as “failed-to-power-up” and report it to the sys admin for repair. For example, after N reboots (which the OS declares upon re-power), many file systems will force a complete consistency check which takes a lot of time. So the timeout may well trigger, yet the node eventually does successfully report. Hence, the scheduler needs to mark the node as not showing up in time, but not mark it as “failed-to-power-up” until a much longer time has elapsed. At that point, the scheduler would notify the sys admin that someone needs to look and see why the node failed to return.
 
-Implementing these policies and mechanisms requires the following features in ORCM:
+Implementing these policies and mechanisms requires the following features in Sensys:
 
 * track the idle time of a node - i.e., the time since it was last used in an allocation.
  
