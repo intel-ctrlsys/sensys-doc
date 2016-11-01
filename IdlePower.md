@@ -1,6 +1,6 @@
 Saving power when nodes are not being used is a big deal in most installations - having a cluster sit there burning full power while idle, especially when it was set to performance mode, represents a significant cost in places where usage is “on demand” as opposed to constant. Administrators therefore value a system that can be directed via policy to automatically put nodes in a reduced power mode when idle for more than a specified time, and then bring them back online when needed. Sys admins also need to take nodes offline (leaving them powered up), and order nodes to power down, for maintenance purposes, and would like to track those as distinct from a node failing as the implications in terms of specified policies could be different.
 
-Sensys's approach to such requirements is to provide mechanisms by which users can control the system's behavior, and then allow those users to establish policies indicating when an dhow those controls are to be used. In this case, Sensys provides two mechanisms for minimizing the amount of lost energy while in idle mode:
+Sensys's approach to such requirements is to provide mechanisms by which users can control the system's behavior, and then allow those users to establish policies indicating when and how those controls are to be used. In this case, Sensys provides two mechanisms for minimizing the amount of lost energy while in idle mode:
 
 * powering the node ''off'' - this represents the minimum energy impact, but requires that the node effectively reboot prior to becoming available for the next session; and
 
