@@ -10,3 +10,4 @@
 * [3.10 ErrorManager Notification](3.10-ErrorManager-Notification)
 * [3.11 Diagnostics](3.11-Diagnostics)
 * [3.12 Sensys Authentication Using Munge](3.12-Sensys-Authentication-Using-Munge)
+* [3.13 Sensys Database Multiple Threads](3.13-Sensys-Database-Multiple-Threads)
