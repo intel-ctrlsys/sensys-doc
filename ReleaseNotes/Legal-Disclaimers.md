@@ -7,7 +7,7 @@ Legal Disclaimer:
 This library is available to anybody free of charge,
 under the terms of MIT License:
 
-    Copyright (c) 2006-2015 Arseny Kapoulkine
+    Copyright (c) 2006-2016 Arseny Kapoulkine
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the “Software”),
@@ -32,5 +32,5 @@ open-source and proprietary. If you use pugixml in a product, it is
 sufficient to add an acknowledgment like this to the product distribution:
 
 This software is based on pugixml library (http://pugixml.org). pugixml is
-Copyright (C) 2006-2015 Arseny Kapoulkine.
+Copyright (C) 2006-2016 Arseny Kapoulkine.
 ```
