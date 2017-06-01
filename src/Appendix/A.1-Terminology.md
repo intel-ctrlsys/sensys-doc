@@ -1,3 +1,4 @@
+# Terminology
 | Term | Description                                          |
 | ---- | ---------------------------------------------------- |
 | HPC  | High Performance Computing                           |
