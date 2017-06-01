@@ -19,6 +19,7 @@
         - [Enabling Data Purge](2-Build-and-Installation-Guide/2.2-Database-Installation/2.2.3-Enabling-Data-Purge.md)
         - [Monitoring Database Size](2-Build-and-Installation-Guide/2.2-Database-Installation/2.2.4-Monitoring-Database-Size.md)
         - [Database Distro Specific Examples](2-Build-and-Installation-Guide/2.2-Database-Installation/2.2.5-Database-Distro-Specific-Examples.md)
+        - [Database ZeroMQ Publishing](2-Build-and-Installation-Guide/2.2-Database-Installation/2.2.6-Database-ZeroMQ-Publishing.md)
 - [Sensys User Guide]()
     - [Overview](3-Sensys-User-Guide/3.1-Overview.md)
     - [orcmd](3-Sensys-User-Guide/3.2-orcmd.md)
