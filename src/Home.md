@@ -11,4 +11,3 @@ Where to start:
 Want to contribute to the wiki?  Sure!  Take a look at the instructions for [maintaining the wiki](A.3-Maintaining-the-Wiki).
 
 Use the sidebar on the right for navigating around the Wiki!
-
