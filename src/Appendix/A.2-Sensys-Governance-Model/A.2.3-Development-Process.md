@@ -1,4 +1,6 @@
-####A.2.3.1 New Features
+# Development Process
+
+#### New Features
 
 In general, the process for developing new features is as follows:
 
@@ -17,35 +19,35 @@ Source: https://svn.open-mpi.org/trac/ompi/attachment/wiki/DevProcess/OMPI%20RFC
 
 For more information, please see: [Open MPI Development Process](https://svn.open-mpi.org/trac/ompi/wiki/DevProcess)
 
-####A.2.3.2 Development Procedure for a Release
+#### Development Procedure for a Release
 
 The following diagram shows the development procedure for a release:
 
 ![Development Procedure for a Release](Appendix/A.2-Sensys-Governance-Model/Development-Procedure-for-Release.png)
 
-####A.2.3.3 Code Reviews and Commit Procedures for Sensys
+#### Code Reviews and Commit Procedures for Sensys
 
-#####A.2.3.3.1 Legal
+##### Legal
 
 Before every release we will perform an IP (Intellectual Property) scan and developers will do a self-attestation.  After this, the IP plan and release BOM (Bill of Materials) will be reviewed with Legal before the release.
 
-#####A.2.3.3.2 Unit Tests
+##### Unit Tests
 
 Sensys will have unit test suite, build-time tests and post-build tests.  Before any code check-in, the tests should be run to ensure the quality of the code.  Over time, we will enable the infrastructure to run the unit tests automatically on the main trunk after every check-in.  If there are any test failures, the developer shall pull his changes from the trunk and fix the code.
 
-#####A.2.3.3.3 New Tests
+##### New Tests
 
 If developers develop new tests for new code (e.g. a new feature), they should check this code into the repository for inclusion in the appropriate automated test suites.
 
-#####A.2.3.3.4 Moving R&D Code to Production
+##### Moving R&D Code to Production
 
 As part of moving code from "R&D status" to "production status" (in the main trunk), a design review is required.  The review committee should include at least two people not involved in the feature development.  Also, it should be announced at least one week in advance, giving anyone interested in participating in the review a chance to participate.  The intent of this review is to help establish requirements (functional and performance), if any, for inclusion in future release branches, and help identify impacts to other parts of the code as early as possible.
 
-#####A.2.3.3.5 Code Review
+##### Code Review
 
 For a release branch, it's required to have the code base section leader to review the code before committing.  The release manager can require a more rigorous code review process for particular commits based on severity, impact, cost and risk.  On the trunk, the gatekeeper makes sure that all code reviews have taken place before merging the code to the repo.
 
-####A.2.3.5 Release Procedure
+#### Release Procedure
 
 * Planning a release:
     * Generally planned in a developers' conference
@@ -59,6 +61,6 @@ For a release branch, it's required to have the code base section leader to revi
 
 For more information, please see: [Open MPI Technical Guidelines](https://svn.open-mpi.org/trac/ompi/wiki/TechnicalGuidelines).
 
-####A.2.3.6 Changeset Move Requests
+#### Changeset Move Requests
 
 Since only gatekeepers have write permissions to release branches, developers must submit a Changeset Move Request (CMR) to get commits into a release branch.  On GitHub, these requests will be handled through Pull Requests.
