@@ -1,3 +1,5 @@
+# Contributing to the source code
+
 Sensys membership guidelines are the same as for Open MPI.  The following are the types of membership:
 
 * Members: have voting rights
