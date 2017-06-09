@@ -1,4 +1,6 @@
-###A.3.1 How Do I Add a Page to the Wiki?
+# Maintaining the Wiki
+
+## How Do I Add a Page to the Wiki?
 
 The Sensys wiki repo has a certain directory structure, and pages and directories follow a certain naming convention.  This is to organize content better and make it easier to generate the wiki's navigation items (sidebars, footers, etc.).  To add a page to the wiki:
 
@@ -9,7 +11,7 @@ The Sensys wiki repo has a certain directory structure, and pages and directorie
 
 The following sections provide details on the naming conventions and directory structure that should be followed.  There is also a section that explains how to use the wiki script to generate the wiki's navigation items.
 
-###A.3.2 Naming Conventions
+## Naming Conventions
 
 * Each page name must be unique regardless of where it is in the directory tree\*
 * Page names: "\<section number\>-\<page title using dashes for spaces\>.md"
@@ -29,7 +31,7 @@ The following sections provide details on the naming conventions and directory s
 
 \* Due to GitHub wiki feature, restriction or standard
 
-###A.3.3 Directory structure
+## Directory structure
 
 * The directory tree within the wiki repo can be used to organize content according to its structure (sections and subsections)
 * In general, there should be a page per section
@@ -39,7 +41,7 @@ The following sections provide details on the naming conventions and directory s
 * Each directory should contain a footer to make navigation easier.  There is no need for the root directory to have a footer.
 * A sidebar should be included in at least the first two levels of the directory tree.  The root-level sidebar can include links to the main (top-level) sections, while the section sidebars can include the entire tree for that section.
 
-###A.3.4 Other Rules and Conventions
+## Other Rules and Conventions
 
 * Please try to follow proper grammar rules
 * For titles, please follow standard Title Case rules: [Title Capitalization](http://titlecapitalization.com/)
@@ -50,7 +52,7 @@ The following sections provide details on the naming conventions and directory s
     * To avoid any confusion between wiki instructions and literal input/output (e.g. for installation instructions), try to avoid including comments inside literal blocks
     * For one-line command examples it's okay to use embedded literal blocks
 
-###A.3.5 The Wiki Script
+## The Wiki Script
 
 To facilitate maintaining sidebars, footers and TOCs, a tool is available in the repo: "wikinav.py".  It automatically generates wiki navigation items based on pages and directory structure.  Usage: `wikinav.py [options]`.  Options:
 
@@ -66,6 +68,7 @@ Important notes:
 * The tool will only generate sidebars for the first two levels of directories
 
 Example:
+
 ```
 python wikinav.py --ignore=ignore.list --toc --verbose
 ```
