@@ -1,4 +1,5 @@
 [Introduction](Home.md)
+[Getting Started](gettingStarted.md)
 - [Sensys](1-Sensys/1.1-Overview.md)
     - [Core features](1-Sensys/1.2-Core-Features.md)
 - [Sensys Build and Installation]()
