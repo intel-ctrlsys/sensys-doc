@@ -129,10 +129,10 @@ $ sudo -u postgres createdb --owner orcmuser orcmdb
 
 ## Database schema installation
 
-Sensys is distributed with a SQL script for the setup of the database schema. A file `sensys.sql` can be found under `contrib/database` folder in the **source code of Sensys** or `/opt/sensys/share/db-schema/` if you are **installing from rpm**.
+Sensys is distributed with a SQL script for the setup of the database schema. A file `sensys-schema.sql` can be found under `contrib/database` folder in the **source code of Sensys** or `/opt/sensys/share/db-schema/` if you are **installing from rpm**.
 
 ```
-$ psql -U orcmuser -W -f sensys.sql orcmdb
+$ psql -U orcmuser -W -f sensys-schema.sql orcmdb
 ```
 
 ## Sensys sensor with database storage feature
