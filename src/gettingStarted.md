@@ -19,8 +19,8 @@ net-snmp |	5.7.3
 net-snmp-devel |	5.7.3
 ipmiutil |	2.9.6
 ipmiutil-devel |	2.9.6
-postgresql |	9.3
-postgresql-devel |	9.3
+postgresql |	9.2 or higher
+postgresql-devel |	9.2 or higher
 numactl-libs |	2.0.9
 openssl |	1.0.1
 zeromq |	4.0.5
