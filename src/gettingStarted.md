@@ -248,7 +248,7 @@ The aggregator and the compute node roles are given by the user. Those are speci
 
 ## Scheduler
 
-The `orcmshed` is another Sensys daemon run at root level. The main purpose of the daemon is to keep the status of each of the `orcmd` it also acts as a communication gateway between them. For further details please take a look at our wiki section [3.3 orcmsched](3.3-orcmsched)
+The `orcmshed` is another Sensys daemon run at root level. The main purpose of the daemon is to keep the status of each of the `orcmd` it also acts as a communication gateway between them. For further details please take a look at our wiki section [3.3 orcmsched](3-Sensys-User-Guide/3.3-orcmsched.html)
 
 ## Sensys configuration
 
@@ -297,11 +297,11 @@ This option is recommended to create a default configuration that applies to all
 # Advanced features
 ## Data analytics
 
-The data analytics is a framework that provides data processing through plug-ins that performs different data analysis like: data filtering, average, threshold among others. This service can be requested and configured using workflows. For specific details of the available plug-ins, scope and usage please refer to our wiki section [3.9 Data Smoothing Algorithms Analytics](3.9-Data-Smoothing-Algorithms-Analytics).
+The data analytics is a framework that provides data processing through plug-ins that performs different data analysis like: data filtering, average, threshold among others. This service can be requested and configured using workflows. For specific details of the available plug-ins, scope and usage please refer to our wiki section [3.9 Data Smoothing Algorithms Analytics](3-Sensys-User-Guide/3.9-Data-Smoothing-Algorithms-Analytics.html).
 
 ## Notification events
 
-The notification event provides information for system events or errors. Sensys provides two notification mechanisms through plug-ins: smtp and syslog. Notification events are requested using workflows. For further details please visit section [3.10 ErrorManager Notification](3.10-ErrorManager-Notification).
+The notification event provides information for system events or errors. Sensys provides two notification mechanisms through plug-ins: smtp and syslog. Notification events are requested using workflows. For further details please visit section [3.10 ErrorManager Notification](3-Sensys-User-Guide/3.10-ErrorManager-Notification.html).
 
 The example below shows a threshold data analytics with a notification event using syslog:
 
